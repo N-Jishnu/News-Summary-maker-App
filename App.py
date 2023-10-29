@@ -1,7 +1,5 @@
 import streamlit as st
-from PIL import Image
 import base64
-
 from bs4 import BeautifulSoup as soup
 from urllib.request import urlopen
 from newspaper import Article

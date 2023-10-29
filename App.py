@@ -76,13 +76,10 @@ def display_news(list_of_news):
 
 def main():
     st.header(":red[📰 News App ]:",divider='red')
-    col1, col3 = st.columns([3, 3])
-
+    col1, col2 = st.columns([3, 3])
     with col1:
         st.write("")
-
-
-    with col3:
+    with col2:
         st.write("")
     category = ['Trending News', 'Favourite Topics', 'Search ']
     cat = st.selectbox('Select your Category', category)
